@@ -251,6 +251,10 @@ END $$
 
 DELIMITER ;
 
+# mysqldump -u root -p schoolDB students > students_dump.sql
+# CREATE DATABASE Grading_Backup;
+# mysql -u root -p Grading_Backup < students_dump.sql
+
 
 
 
